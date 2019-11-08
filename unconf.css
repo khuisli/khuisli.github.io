@@ -1,0 +1,25 @@
+/*
+Follow following guides/rules when editing CSS in this project:
+- BEM http://getbem.com/introduction/
+- Airbnb Styleguide https://github.com/airbnb/css
+*/
+
+body {
+  text-align: center;
+  background-color: #DBD4C4;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  color: #5C4594;
+}
+
+header img {
+  margin-top: 2vh;
+  width: 500px;
+  max-width: 90%;
+}
+
+article {
+  margin: 2em 0;
+}
