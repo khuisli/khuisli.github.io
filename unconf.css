@@ -32,7 +32,30 @@ header img {
 
 div.two-col {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media only screen and (max-width: 450px) {
+  div.two-col {
+    display: inline-block;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  div.two-col > div {
+    margin-bottom: 2em;
+  }
+
+  div.two-col > div:last-child {
+    margin-bottom: 0em;
+  }
+}
+
+div.social,
+div.location {
+  text-align: left;
 }
 
 div.social a,
@@ -47,7 +70,9 @@ div.location a:hover {
 }
 
 div.social ul {
+  display: inline-block;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
