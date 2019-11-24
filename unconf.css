@@ -7,6 +7,7 @@ Follow following guides/rules when editing CSS in this project:
 body {
   text-align: center;
   background-color: #DBD4C4;
+  background: linear-gradient(90deg, #CBC4B4 0%, #DBD4C4 20%, #DBD4C4 80%, #CBC4B4 100%);
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #47317D;
 }
