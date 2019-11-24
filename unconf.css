@@ -23,3 +23,16 @@ header img {
 article {
   margin: 2em 0;
 }
+
+article.social a {
+  color: #000;
+  text-decoration: none;
+}
+
+article.social a:hover {
+  text-decoration: underline;
+}
+
+article.social ul {
+  list-style: none;
+}
