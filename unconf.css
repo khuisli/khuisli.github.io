@@ -8,10 +8,12 @@ body {
   text-align: center;
   background-color: #DBD4C4;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #47317D;
 }
 
 header {
-  color: #5C4594;
+  margin-bottom: 2em;
+  color: #47317D;
 }
 
 header img {
@@ -20,19 +22,31 @@ header img {
   max-width: 90%;
 }
 
-article {
-  margin: 2em 0;
+div.two-col {
+  display: flex;
+  justify-content: center;
 }
 
-article.social a {
-  color: #000;
+div.social a,
+div.location a {
+  color: #47317D;
   text-decoration: none;
 }
 
-article.social a:hover {
+div.social a:hover,
+div.location a:hover {
   text-decoration: underline;
 }
 
-article.social ul {
+div.social ul {
+  margin: 0;
   list-style: none;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+footer a {
+  color: #47317D;
 }
