@@ -7,11 +7,22 @@ Follow following guides/rules when editing CSS in this project:
 body {
   text-align: center;
   background-color: #DBD4C4;
+  background: linear-gradient(90deg, #CBC4B4 0%, #DBD4C4 20%, #DBD4C4 80%, #CBC4B4 100%);
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #47317D;
+}
+
+hr {
+  margin: 2em auto;
+  max-width: 450px;
+  width: 90vw;
+  border: 1px solid #47317D;
+  border-bottom: 0;
 }
 
 header {
-  color: #5C4594;
+  margin-bottom: 2em;
+  color: #47317D;
 }
 
 header img {
@@ -20,6 +31,56 @@ header img {
   max-width: 90%;
 }
 
-article {
-  margin: 2em 0;
+div.two-col {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media only screen and (max-width: 450px) {
+  div.two-col {
+    display: inline-block;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  div.two-col > div {
+    margin-bottom: 2em;
+  }
+
+  div.two-col > div:last-child {
+    margin-bottom: 0em;
+  }
+}
+
+div.social,
+div.location {
+  text-align: left;
+}
+
+div.social a,
+div.location a {
+  color: #47317D;
+  text-decoration: none;
+}
+
+div.social a:hover,
+div.location a:hover {
+  text-decoration: underline;
+}
+
+div.social ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+footer a {
+  color: #47317D;
 }
