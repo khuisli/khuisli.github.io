@@ -120,6 +120,13 @@ article h3 {
   height: 300px;
 }
 
+.map__marker {
+  width: 80px;
+  height: 80px;
+  background-image: url('./assets/logo.png');
+  background-size: contain;
+}
+
 article#contact { }
 article#contact a {
   text-decoration: none;

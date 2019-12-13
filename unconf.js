@@ -78,12 +78,24 @@ class StickyNavigation {
 new StickyNavigation();
 
 // map
-mapboxgl.accessToken = 'pk.eyJ1IjoiZW1yb3giLCJhIjoiY2pvMzE3Z2YzMHEzbjNxcGEwdzJ1ZTNwaiJ9.HXCgmmMSmNFnYAia0cZukA';
-var map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
-  center: [10.03, 53.56],
-  zoom: 11
-});
-map.addControl(new mapboxgl.NavigationControl());
-map.setStyle('mapbox://styles/emrox/ck3wycjf73c2m1cll16jzxbuk');
+const initialiseMap = () => {
+  if (!mapboxgl) { window.setTimeout(100, initialiseMap()); return }
+
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZW1yb3giLCJhIjoiY2pvMzE4dnAzMHE3dzNrcGFuajdoa2duZSJ9.qiLN60PNBVjW4pivjwVtvQ';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [10.03, 53.56],
+    zoom: 11
+  });
+  map.addControl(new mapboxgl.NavigationControl());
+  map.setStyle('mapbox://styles/emrox/ck3wycjf73c2m1cll16jzxbuk');
+
+  const markerElelemt = document.createElement('div');
+  markerElelemt.className = 'map__marker';
+
+  new mapboxgl.Marker(markerElelemt).setLngLat({ lng: 10.034110, lat: 53.569130 }).addTo(map);
+}
+
+window.setTimeout(100, initialiseMap());
+
