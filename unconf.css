@@ -57,14 +57,19 @@ article h3 {
   text-align: center;
 }
 .divider img {
-  max-width: 9vw;
+  max-width: 8vw;
   padding: 0 1vw;
 }
 
-.map-divider {}
-.map-divider #map {
-  width: 100%;
-  height: 200px;
+.map {
+  margin-left: 3em;
+  margin-bottom: 3em;
+  float: right;
+}
+
+.map #map {
+  width: 400px;
+  height: 300px;
 }
 
 article#contact { }
