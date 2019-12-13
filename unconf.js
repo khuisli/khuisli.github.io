@@ -1,0 +1,89 @@
+class StickyNavigation {
+  constructor() {
+    this.currentTab = null;
+    this.tabContainerHeight = 70;
+    this.navElements = document.querySelectorAll('nav a[href^="#"]');
+
+    this.navElements.forEach((navElement) => {
+      navElement.addEventListener('click', (event) => this.onTabClick(event));
+    });
+
+    this.onScroll();
+
+    window.addEventListener('scroll', () => this.onScroll());
+    window.addEventListener('resize', () => this.onResize());
+  }
+
+  onTabClick(event) {
+    event.preventDefault();
+
+    const targetArticle = document.querySelector(event.currentTarget.attributes.href.value);
+
+    window.scrollTo({
+      top: targetArticle.offsetTop - this.tabContainerHeight,
+      behavior: 'smooth'
+    });
+  }
+
+  onScroll() {
+    this.checkTabContainerPosition();
+    this.findCurrentTabSelector();
+  }
+
+  onResize() {
+    this.setSliderCss();
+  }
+
+  checkTabContainerPosition() {
+    const nav = document.querySelector('nav');
+    const header = document.querySelector('header');
+
+    if (header.getBoundingClientRect().bottom > 0) {
+      nav.classList.remove('floating')
+      header.classList.remove('floating-nav')
+    } else {
+      nav.classList.add('floating')
+      header.classList.add('floating-nav')
+    }
+  }
+
+  findCurrentTabSelector(element) {
+    let currentNavElement;
+
+    this.navElements.forEach((navElement) => {
+      const idSelector = navElement.attributes.href.value;
+      const article = document.querySelector(idSelector);
+
+      if (article.getBoundingClientRect().top < this.tabContainerHeight + 10) {
+        currentNavElement = navElement;
+      }
+    });
+
+    const fakeTab = { href: '' };
+    if ((this.currentTab || fakeTab).href !== (currentNavElement || fakeTab).href) {
+      this.currentTab = currentNavElement;
+      this.setSliderCss();
+    }
+  }
+
+  setSliderCss() {
+    const sliderElement = document.querySelector('nav .slider');
+    const tabDimensions = this.currentTab ? this.currentTab.getBoundingClientRect() : { width: 0, left: 0 };
+
+    sliderElement.style.width = tabDimensions.width;
+    sliderElement.style.left = tabDimensions.left;
+  }
+}
+
+new StickyNavigation();
+
+// map
+mapboxgl.accessToken = 'pk.eyJ1IjoiZW1yb3giLCJhIjoiY2pvMzE3Z2YzMHEzbjNxcGEwdzJ1ZTNwaiJ9.HXCgmmMSmNFnYAia0cZukA';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [10.03, 53.56],
+  zoom: 11
+});
+map.addControl(new mapboxgl.NavigationControl());
+map.setStyle('mapbox://styles/emrox/ck3wycjf73c2m1cll16jzxbuk');

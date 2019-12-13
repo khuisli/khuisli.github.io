@@ -9,17 +9,18 @@
     <link rel="icon" href="/assets/favicon.png" type="image/png" />
   </head>
   <body>
-    <header class="bg">
+    <header>
       <img src="assets/2020.svg" alt="Ruby Unconf Logo" class="main-logo" />
-
-      <nav>
-        <a href="">Tickets</a>
-        <a href="#unconf">Unconf</a>
-        <a href="#where">Where</a>
-        <a href="#inclusivity">Inclusivity</a>
-        <a href="#contact">Contact</a>
-      </nav>
     </header>
+
+    <nav>
+      <a href="">Tickets</a>
+      <a href="#unconf">Unconf</a>
+      <a href="#where">Where</a>
+      <a href="#inclusivity">Inclusivity</a>
+      <a href="#contact">Contact</a>
+      <span class="slider" />
+    </nav>
 
     <article id="unconf">
       <h2># Unconf</h2>
@@ -73,17 +74,6 @@
           <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
           <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
           <div id="map"></div>
-          <script>
-            mapboxgl.accessToken = 'pk.eyJ1IjoiZW1yb3giLCJhIjoiY2pvMzE3Z2YzMHEzbjNxcGEwdzJ1ZTNwaiJ9.HXCgmmMSmNFnYAia0cZukA';
-            var map = new mapboxgl.Map({
-              container: 'map',
-              style: 'mapbox://styles/mapbox/streets-v11',
-              center: [10.03, 53.56],
-              zoom: 11
-            });
-            map.addControl(new mapboxgl.NavigationControl());
-            map.setStyle('mapbox://styles/emrox/ck3wycjf73c2m1cll16jzxbuk');
-          </script>
         </div>
 
         <a href="https://duckduckgo.com/?q=Finkenau+35%2C+22081+Hamburg&iaxm=maps&atb=v116-1&ia=maps">
@@ -223,5 +213,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  </body>
+
+    <script src="./unconf.js" />
+</body>
 </html>
