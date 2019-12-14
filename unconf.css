@@ -131,6 +131,16 @@ article blockquote {
   width: 14%;
 }
 
+@media (max-width: 500px) {
+  .separator img:first-child,
+  .separator img:last-child {
+    display: none;
+  }
+  .separator img {
+    width: 22%;
+  }
+}
+
 .map {
   margin-left: 3em;
   margin-bottom: 3em;
