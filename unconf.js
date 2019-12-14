@@ -83,5 +83,7 @@ const initialiseMap = () => {
   new mapboxgl.Marker(markerElelemt).setLngLat({ lng: 10.034110, lat: 53.569130 }).addTo(map);
 }
 
-window.setTimeout(100, initialiseMap());
+if (document.querySelector('#map')) {
+  window.setTimeout(100, initialiseMap());
+}
 
