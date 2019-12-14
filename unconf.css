@@ -63,12 +63,28 @@ nav a:hover {
 }
 
 nav .slider {
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 6px;
-    background-color: #47317d;
-    transition: left 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background-color: #47317d;
+  transition: left 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  nav {
+    height: 50px;
+  }
+
+  nav a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  nav {
+    display: none;
+  }
 }
 
 a,
