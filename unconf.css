@@ -227,6 +227,19 @@ article blockquote {
   border-left: 2px solid rgba(71, 49, 125, 0.2);
 }
 
+.buy-ticket {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-ticket .buy-ticket__cta {
+  display: inline-block;
+  margin: 1em 0 2em;
+  padding: 1em 5em;
+  background-color: rgb(71, 49, 125);
+  color: #fff;
+}
+
 .separator {
   width: 100%;
   display: flex;
