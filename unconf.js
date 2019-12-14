@@ -1,4 +1,4 @@
-class StickyNavigation {
+class PositionIndicator {
   constructor() {
     this.currentTab = null;
     this.tabContainerHeight = 70;
@@ -26,25 +26,11 @@ class StickyNavigation {
   }
 
   onScroll() {
-    this.checkTabContainerPosition();
     this.findCurrentTabSelector();
   }
 
   onResize() {
     this.setSliderCss();
-  }
-
-  checkTabContainerPosition() {
-    const nav = document.querySelector('nav');
-    const header = document.querySelector('header');
-
-    if (header.getBoundingClientRect().bottom > 0) {
-      nav.classList.remove('floating')
-      header.classList.remove('floating-nav')
-    } else {
-      nav.classList.add('floating')
-      header.classList.add('floating-nav')
-    }
   }
 
   findCurrentTabSelector(element) {
@@ -54,7 +40,7 @@ class StickyNavigation {
       const idSelector = navElement.attributes.href.value;
       const article = document.querySelector(idSelector);
 
-      if (article.getBoundingClientRect().top < this.tabContainerHeight + 10) {
+      if (article.getBoundingClientRect().top < (window.innerHeight / 2)) {
         currentNavElement = navElement;
       }
     });
@@ -75,7 +61,7 @@ class StickyNavigation {
   }
 }
 
-new StickyNavigation();
+new PositionIndicator();
 
 // map
 const initialiseMap = () => {
