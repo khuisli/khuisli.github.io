@@ -98,6 +98,12 @@ article h3 {
   font-size: 1.5em;
 }
 
+article blockquote {
+  margin: 1em;
+  padding-left: 1em;
+  border-left: 2px solid rgba(71, 49, 125, 0.2);
+}
+
 .separator {
   width: 100%;
   display: flex;
