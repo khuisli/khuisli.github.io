@@ -22,6 +22,7 @@ header.floating-nav {
 
 header img {
   margin-bottom: 2em;
+  max-width: 80%;
 }
 
 nav {
