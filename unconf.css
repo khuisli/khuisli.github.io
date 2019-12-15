@@ -248,6 +248,7 @@ article blockquote {
 
 .separator img {
   width: 14%;
+  height: intrinsic;
 }
 
 @media (max-width: 500px) {
