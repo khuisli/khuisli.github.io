@@ -1,9 +1,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Ruby Unconf 2020</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/1a4b86cfe5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="unconf.css" />
@@ -14,34 +15,269 @@
       <img src="assets/2020.svg" alt="Ruby Unconf Logo" class="main-logo" />
     </header>
 
-    <div class="two-col">
-      <div class="location">
-        <a href="https://duckduckgo.com/?q=Finkenau+35%2C+22081+Hamburg&iaxm=maps&atb=v116-1&ia=maps">
-          <h3>HAW Hamburg</h3>
-          <h4>Campus Finkenau</h4>
+    <nav>
+      <div class="container">
+        <a href="#tickets">Tickets</a>
+        <a href="#unconf">Unconf</a>
+        <a href="#where">Where</a>
+        <a href="#inclusivity">Inclusivity</a>
+        <a href="#contact">Contact</a>
+        <span class="slider" />
+      </div>
+    </nav>
 
+    <article id="tickets">
+      <h2># Tickets</h2>
+
+      <!--
+      <div class="buy-ticket">
+        <a href="#" class="buy-ticket__cta">Get your Ticket</a>
+      </div>
+      -->
+
+      <div>
+        <h3 id="pwww">## Pay what you want</h3>
+
+        <p>
+          This year, we are trying something new in the way we are pricing our tickets. The inspiration comes from JS Unconf
+          who have tried a model like this before and had good results.<br />
+          <br />
+          We want to set our prices as low as possible, so that students, newcomers and Rubyists looking for a job can still
+          participate. But we also want to give the people who want to support others and have the means, the opportunity to do
+          so.<br />
+          <br />
+          So, we will keep our prices from last year as <b><i>the "recommended" ticket price of 65€</i></b>. If you want to donate extra money
+          that will go towards a conference that is more inclusive for everyone, feel free to increase your ticket price. The
+          minimum price for a ticket will be 45€, which we hope will be less prohibitive for potential participants with money
+          issues.<br />
+          <br />
+          So what do you get for any money you decide to pay over the recommended amount? You get a more inclusive conference.
+          You are supporting someone who couldn’t afford the recommended price and bought a minimal price ticket.
+          The money goes towards our diversity program to invite more people from underrepresented minorities to our Unconf, who
+          wouldn’t be able to make it otherwise.
+          It also goes towards providing childcare at the conference so more parents can attend.<br />
+          <br />
+          We hope these changes will make the conference a more diverse and inclusive place for all Rubyists.
+        </p>
+      </div>
+    </article>
+
+    <article id="unconf">
+      <div class="separator">
+        <img src="assets/sticker/19.png" />
+        <img src="assets/sticker/20.png" />
+        <img src="assets/sticker/21.png" />
+        <img src="assets/sticker/22.png" />
+        <img src="assets/sticker/23.png" />
+        <img src="assets/sticker/24.png" />
+      </div>
+
+      <h2># Unconf</h2>
+
+      <p>
+        What exactly is an Unconference? It is an Barcamp style event. It works like this: Everybody can propose a talk.
+        Everybody votes for the talks they want to see. The most voted talks will be held. You decide what will happen!
+      </p>
+
+      <p>
+        Read more about <a href="/2019/04/29/unconf.html">what exactly is an Unconference here</a>.
+      </p>
+
+      <div>
+        <h3 id="prepare-a-talk">## Prepare a talk</h3>
+
+        <p>
+          We recommend to prepare slides for your talk. The talk length will be half an hour. You get the chance to pitch your
+          talk at the beginning of each conference day. Besides talks different formats like workshops or panel discussions are
+          welcome.
+        </p>
+      </div>
+
+      <div>
+        <h3>## History</h3>
+
+        <p>
+          2020 will be the third Ruby Unconf. The <a href="https://2018.rubyunconf.eu/">first one took place in 2018</a>.<br />
+          For a recap of the <a href="https://2019.rubyunconf.eu">2019 Ruby Unconf</a> we have compiled a
+          <a href="https://2019.rubyunconf.eu/2019/11/22/recap.html">Recap</a> to give you a little insight.
+        </p>
+      </div>
+    </article>
+
+    <article id="where">
+      <div class="separator">
+        <img src="assets/sticker/01.png" />
+        <img src="assets/sticker/02.png" />
+        <img src="assets/sticker/03.png" />
+        <img src="assets/sticker/04.png" />
+        <img src="assets/sticker/05.png" />
+        <img src="assets/sticker/06.png" />
+      </div>
+
+      <h2># Where</h2>
+
+      <div class="venue">
+        <h3>## Venue</h3>
+
+        <div class="map">
+          <div id="map"></div>
+        </div>
+
+        <a href="https://duckduckgo.com/?q=Finkenau+35%2C+22081+Hamburg&iaxm=maps&atb=v116-1&ia=maps">
+          <h4>HAW Hamburg</h4>
+          <h4>Campus Finkenau</h4>
+      
           Finkenau 35<br />
           22081 Hamburg
         </a>
+        <br />
+        <br />
+
+        <p>
+          <h4>Getting there</h4>
+
+          The easiest way to get there is by walking 500m from the U-Bahn (Underground) station “Mundsburg”, which is about a 7
+          Minute ride away from the central station (“Hauptbahnhof”).<br />
+          <br />
+          It’s probably not a good idea to try to go by car, as parking space is very limited and even on a saturday, we can’t
+          really recommend driving in Hamburgs inner city.<br />
+          <br />
+          If you are arriving from Hamburg Airport, you should take the S-Bahn (Metro) to Barmbek and then the U-Bahn to
+          Mundsburg.<br />
+          <br />
+
+          <h4>Surroundings</h4>
+
+          The Venue is right next to the Eilbekkanal, a channel that runs directly to the Alster lake (“Aussenalster”) which is
+          probably a 30 minute walk but especially worth it on a sunny summer day.
+        </p>
       </div>
 
-      <div class="social">
+      <div class="city">
+        <h3>## Hamburg</h3>
+
+        <p>
+          Quoting <a href="https://en.wikipedia.org/wiki/Hamburg">Wikipedia</a>:
+
+          <blockquote>
+            Hamburg, officially the Free and Hanseatic City of Hamburg, is the second-largest city in Germany after Berlin and 8th
+            largest city in the European Union with a population of over 1.8 million.
+          </blockquote>
+
+          Getting to Hamburg is easy. By bike, train, car, plane - even by boat.
+          The <a href="https://en.wikivoyage.org/wiki/Hamburg">Wikivoyage travel guide</a> sums up everything
+          you need to know about getting to and getting around Hamburg, finding a place to stay or even moving here.
+        </p>
+      </div>
+    </article>
+
+    <article id="inclusivity">
+      <div class="separator">
+        <img src="assets/sticker/07.png" />
+        <img src="assets/sticker/08.png" />
+        <img src="assets/sticker/09.png" />
+        <img src="assets/sticker/10.png" />
+        <img src="assets/sticker/11.png" />
+        <img src="assets/sticker/12.png" />
+      </div>
+
+      <h2># Inclusivity</h2>
+
+      <div>
+        <h3>## Diversity</h3>
+
+        <p>
+          Our scholarship program is meant to make Ruby Unconf a better unconference. We want to make this community-focused event
+          accessible to the wide range of people who are learning, work with, or are Ruby enthusiasts. We welcome applicants from
+          underrepresented groups in tech to apply. This includes, but is not limited to: women-identifying persons, people of
+          color, LGBTQIA people, people with physical and mental disabilities and people facing economic and/or political
+          hardships. Scholarship recipients will receive a Ruby Unconf Hamburg 2020 ticket.
+        </p>
+
+        <p>
+          With paying more than the recommended price of 65€ you help us make this happen.
+        </p>
+
+        <br />
+
+        <p>
+          We'll inform you as soon as the application phase for diversity tickets will begin.
+        </p>
+      </div>
+
+      <div>
+        <h3>## Code of Conduct</h3>
+
+        <p>
+          The heart of the Ruby Unconference is people. <a href="https://berlincodeofconduct.org/" rel="noopener">This
+          guideline</a> is meant to support a happy, productive and safe event experience that can welcome new ideas and
+          inspiration for all attendees. Regardless of gender, sexual orientation, age, ability, ethnicity, socioeconomic
+          status, and religion (or lack thereof). We gain strength from diversity, and actively seek participation from
+          those who enhance it.
+        </p>
+        <br />
+        <p>
+          Read the full <a href="https://berlincodeofconduct.org/" rel="noopener">Berlin Code of Conduct here</a>.
+        </p>
+      </div>
+
+      <div>
+        <h3>## Accessibility</h3>
+
+        <p>
+          Need Help?<br />
+          Mail: <a href="mailto:team@rubyunconf.eu">team@rubyunconf.eu</a>
+        </p>
+        <br />
+        <p>
+          Ruby Unconf is an inclusive unconference and as such strives to be accessible to everyone. See our full accessibility
+          statement here: Accessibility Statement
+        </p>
+      </div>
+    </article>
+
+    <article id="contact">
+      <div class="separator">
+        <img src="assets/sticker/13.png" />
+        <img src="assets/sticker/14.png" />
+        <img src="assets/sticker/15.png" />
+        <img src="assets/sticker/16.png" />
+        <img src="assets/sticker/17.png" />
+        <img src="assets/sticker/18.png" />
+      </div>
+
+      <h2># Contact</h2>
+
+      Latest news were published on our Twitter feed. You can easily leave us a note on Twitter, but via GitHub Issue
+      or e-mail is also fine. On the conference itself we ask our participants if it's ok to have pictures taken with
+      them. We won't publish pictures of people opting out of that. In case we accidentally did please leave us a note
+      so we can remove the image.
+
+      <p>
         <ul>
           <li><a href="https://twitter.com/RubyUnconfEU"><i class="fab fa-twitter"></i> rubyunconfeu</a></li>
           <li><a href="https://www.instagram.com/rubyunconf/"><i class="fab fa-instagram"></i> rubyunconf</a></li>
+          <li><a href="https://github.com/rubyunconfeu/"><i class="fab fa-github"></i> rubyunconfeu</a></li>
           <li><a href="mailto:info@rubyunconf.eu"><i class="far fa-envelope"></i> info@rubyunconf.eu</a></li>
-          <li><a href="https://2019.rubyunconf.eu"><i class="fas fa-history"></i> RubyUnconf 2019</a></li>
         </ul>
-      </div>
-    </div>
+      </p>
 
-    <hr />
+      We are also happy to welcome volunteers to prepare the unconf or on the unconf itself. Most of preparation tasks
+      can be done remotely. Just contact us!
+    </article>
 
     <footer>
       Organized by <a href="https://www.bootev.org/">BOOT e.V.</a><br />
-      <a href="https://2019.rubyunconf.eu/imprint.html">Imprint / Impressum</a>
+      <a href="/imprint.html">Imprint / Impressum</a>
       &amp;
-      <a href="https://2019.rubyunconf.eu/datenschutz.html">Datenschutzerklärung</a>
+      <a href="/dataprotection.html">Datenschutzerklärung</a>
     </footer>
-  </body>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js'></script>
+    <script src="./unconf.js"></script>
+</body>
 </html>
