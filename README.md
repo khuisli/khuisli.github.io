@@ -1,17 +1,9 @@
-# The Ruby Unconf 2020 Website
+# 2024 Joint Workshops on Fragments (hosted by KHU-ISLI, UVigo-LVTC, and  JWLLP)
 
-https://2020.rubyunconf.eu/
+https://khuisli.github.io/workshop-2024.html
 
-## Rules
+## Institute for the Study of Language and Information, Kyung Hee University
 
-- Use Pull Requests for committing changes!
-- Except for when it's really, really urgent, of course
+- For more information: http://isli.khu.ac.kr
+- Linguistic Research (ESCI & Scopus indexed journal): http://isli.khu.ac.kr/journal/
 
-## How to contribute
-
-It is awesome that you want to help us with your time and talent! :rainbow:
-
-### Here are some guidelines
-
-- should work on Desktop and mobile devices (on modern browsers)
-- Done is better than perfect
