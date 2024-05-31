@@ -1,7 +1,7 @@
 class PositionIndicator {
   constructor() {
     this.currentTab = null;
-    this.tabContainerHeight = 70;
+    this.tabContainerHeight = 50;
     this.navElements = document.querySelectorAll('nav a[href^="#"]');
 
     this.navElements.forEach((navElement) => {
