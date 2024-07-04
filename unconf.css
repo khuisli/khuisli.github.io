@@ -70,7 +70,7 @@ nav .slider {
   bottom: 0;
   width: 0;
   height: 6px;
-  background-color: #47317d;
+  background-color: #0d326f;
   transition: left 0.3s ease;
 }
 
@@ -99,7 +99,7 @@ nav .slider {
 
 a,
 a:visited {
-  color: #47317D;
+  color: #0d326f;
 }
 
 article,
@@ -112,7 +112,7 @@ footer {
 
 article h2,
 article h3 {
-  color: #EA605F;
+  color: #717171;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
