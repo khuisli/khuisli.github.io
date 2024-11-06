@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>2024 KHU-ISLI Workshops </title>
+
+    <script src="khuisli.github.io" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="unconf.css" />
+    <link rel="icon" href="/assets/2024fragment.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/2024fragment.png" alt="khu-logo" class="main-logo" />
+    </header>
+
+    <nav>
+      <div class="container">
+        <a href="#About">About</a>
+        <a href="#Program">Program</a>
+        <a href="#Venue">Venue</a>
+        <a href="#Snapshots">Snapshots</a>
+        <span class="slider" />
+      </div>
+    </nav>
+
+    <article id="About">
+      <div>
+        <h3 id="pwww"># About</h3>
+
+        <p> 
+          The 2024 Research Workshop on Fragments, as part of <a href="http://isli.khu.ac.kr/conf/jwllp.php">Joint Workshops on Linguistics and Language Processing</a>, is hosted by the Institute for the Study of Language and Information (KH-ISLI) at Kyung Hee University in Seoul, Korea. The first part of this workshop took place in June 2024 in Vigo, Spain, hosted by the Language Variation and Textual Categorization group at the University of Vigo (<a href="https://lvtc.uvigo.es/">UVigo-LVTC</a>). The second part will be held on September 7, 2024. 
+          <br />
+          <br />
+          This year, we will hold two workshop sessions: the first in Vigo, Spain, and the second in Seoul, Korea.
+           <br />
+          <br />
+           <b class="term">Vigo Workshop</b>: June 22nd (Sat), 2024, 09:00-15:00, at University of Vigo, Spain &#10146; <a href="https://lvtc.uvigo.es/fragments2024">Fragments2024 Program</a>
+          <br />
+          <b class="term">Seoul Workshop</b>: September 7th (Sat), 2024, at Kyung Hee University, Seoul, Korea
+          <br />
+           <br />
+          This research seminar will include a co-plenary talk by Prof. Javier Pérez-Guerra and Dr. Yolanda Fernández-Pena from the LVTC research team at the University of Vigo. Especially, the workshop will focus on theoretical and formal aspects of natural language analysis, including syntax, semantics, pragmatics, corpus linguistics, and their interfaces. 
+          <br />
+            <br />
+          This work was supported by the government of the Republic of Korea (MSIT) and the National Research Foundation of Korea (NRF-2023K2A9A1A01098530).
+          <br />
+          This workshop is jointly held with the Fragment project (<a href="https://lvtc.uvigo.es/fragments">MCIN/AEI/10.13039/501100011033</a>) of the LVTC research team.
+          <br />
+          <img src="assets/logofragments.png" alt="logofragments" style="width:12%">
+           <br />
+        </p>
+      </div>
+    </article>
+
+    <article id="Program">
+  <div>
+        <h3 id="pwww"># Program</h3>
+     <p> 
+     <br />
+          <b class="term"> <a href="assets/fragment2024-program.pdf">Downloadable program (As of September 8th, 2024)</a>
+          <br />
+
+
+      
+    <table>
+        <tr>
+            <td class="date" rowspan="2">
+               
+            </td>
+            <td class="title-special">
+                <a href="assets/fragment2024-program.pdf">
+                    <img src="assets/fragment2024-program.png" alt="fragment2024-program" style="width:100%">
+            </td>
+        </tr>
+     
+        </tr>
+    </table>
+   </p>
+      </div>
+ 
+  </article>
+
+    <article id="Venue">
+      <h3># Venue</h3>
+
+      <div class="venue">
+ 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.226131929427!2d127.04926321116669!3d37.59683667191407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35634d9612236bc7%3A0xd1cbc40c602e436b!2z6rK97Z2s64yA7ZWZ6rWQIOyEnOyauOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1720056201591!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br />
+        <br />
+
+        <p>
+
+
+     
+          <br />
+
+      </div>
+
+ 
+    </article>
+
+  
+    <article id="snapshots">
+  
+
+      <h3># Workshop Sanpshots</h3>
+
+      <p>
+        <ul>
+          <li>Thank you to the plenary speakers and all the presenters for the wonderful talks. We hope to continue our joint research and to meet again at future conferences.</li>
+                          <img src="assets/Fragments2024-OpeningRemarks.png" alt="Fragments2024-OpeningRemarks" style="width:100%">
+                   <img src="assets/Fragments2024-Plenary-Fernandez-Perez.png" alt="Fragments2024-Plenary-Fernandez-Perez" style="width:100%">
+        <br />
+          <img src="assets/Fragments2024-Ana.png" alt="Fragments2024-Ana" style="width:80%">
+          <img src="assets/Fragments2024-Heeyeon.png" alt="Fragments2024-Heeyeon" style="width:80%">
+          <img src="assets/Fragments2024-Laura.png" alt="Fragments2024-Laura" style="width:80%">
+        <br />
+       <img src="assets/Fragments2024-Xulia.png" alt="Fragments2024-Xulia" style="width:80%">
+          <img src="assets/Fragments2024-Youngyu.png" alt="Fragments2024-Youngyu" style="width:80%">
+          <img src="assets/Fragments2024-Rosalia.png" alt="Fragments2024-Rosalia" style="width:80%">
+        <br />
+          <img src="assets/Fragments2024-ClosingRemarks-Javier-1.png" alt="Fragments2024-ClosingRemarks-Javier-1" style="width:80%">
+          <img src="assets/Fragments2024-ClosingRemarks-Javier-2.png" alt="Fragments2024-ClosingRemarks-Javier-2" style="width:80%">
+          <img src="assets/Fragments2024-ClosingRemarks-Javier-3.png" alt="Fragments2024-ClosingRemarks-Javier-3" style="width:80%">
+        <br />
+       <img src="assets/Fragments2024-ClosingRemarks-Javier-4.png" alt="Fragments2024-ClosingRemarks-Javier-4" style="width:80%">
+          <img src="assets/Fragments2024-ClosingRemarks-Javier-5.png" alt="Fragments2024-ClosingRemarks-Javier-5" style="width:80%">
+          <img src="assets/Fragments2024-ClosingRemarks-Javier-6.png" alt="Fragments2024-ClosingRemarks-Javier-6" style="width:100%">
+              </ul>
+      </p>
+
+
+    </article>
+
+    <footer>
+      Organized by <a href="http://isli.khu.ac.kr">KH-ISLI</a>
+      
+    </footer>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js'></script>
+    <script src="./unconf.js"></script>
+</body>
+</html>
