@@ -36,7 +36,7 @@ nav {
   height: 70px;
   font-size: 1.7em;
   background-color: #f2f2f2;
-  background: linear-gradient(90deg, #CBC4B4 0%, #DBD4C4 20%, #DBD4C4 80%, #CBC4B4 100%);
+  background: linear-gradient(90deg, #0d376f 0%, #0d376f 20%, #0d376f 80%, #0d376f100%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
@@ -61,7 +61,7 @@ nav a {
 
 nav a:hover {
   color:white;
-  background-color: rgb(89, 89, 89);
+  background-color: rgb(13, 50, 111);
   transition: all 0.5s ease;
 }
 
