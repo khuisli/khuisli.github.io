@@ -6,13 +6,13 @@ Follow following guides/rules when editing CSS in this project:
 
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #47317D;
+  color: #0d0d0d;
 }
 
 header {
   padding: 2em 0 0;
   text-align: center;
-  background-color: #DBD4C4;
+  background-color: #404040;
   background: linear-gradient(90deg, #CBC4B4 0%, #DBD4C4 20%, #DBD4C4 80%, #CBC4B4 100%);
   background-image: url('./assets/');
   background-size: cover;
@@ -34,7 +34,7 @@ nav {
   display: flex;
   justify-content: center;
   height: 70px;
-  font-size: 1.5em;
+  font-size: 1.7em;
   background-color: #f2f2f2;
   background: linear-gradient(90deg, #CBC4B4 0%, #DBD4C4 20%, #DBD4C4 80%, #CBC4B4 100%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
